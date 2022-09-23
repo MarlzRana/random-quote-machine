@@ -1,0 +1,64 @@
+html,
+body,
+.container-fluid {
+  height: 100%;
+}
+.container-fluid {
+  padding-top: 15%;
+  padding-bottom: 25%;
+  background-color: green;
+}
+
+#quote-box {
+  background-color: white;
+}
+
+span {
+  font-size: calc(4px + 4vmin);
+  font-weight: 500;
+}
+
+#left-quote-box-padding,
+#right-quote-box-padding {
+  background-color: green;
+}
+
+#left-quote-box-padding,
+#right-quote-box-padding,
+#quote-box-content {
+  padding: 4vmin;
+}
+
+a,
+button {
+  background-color: green !important;
+}
+
+.cs-btn-new-quote {
+  float: right;
+}
+
+.cs-left-buttons {
+  display: flex;
+}
+
+.cs-twitter-btn {
+  margin-right: 1px;
+}
+
+.cs-author-name {
+  font-size: calc(5px + 2vmin);
+}
+
+#quote-box {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.cs-twitter-btn,
+.cs-tumblr-btn {
+  min-height: 20px;
+  min-width: 50px;
+  height: 40px;
+  width: 50px;
+}
